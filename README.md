@@ -1,4 +1,4 @@
-## UoB LI Operating Systems and Systems Programming
+## LI Operating Systems and Systems Programming
 
 
 ## Learning Objectives
