@@ -89,7 +89,7 @@ int main(){
 
 - The code segment that resides between ```mutex_lock()``` and ```mutex_unlock()```.
 - Critical region is executed serially by the threads.
-- The goal of defining critical regions is to ensure that only one thread at a time can execute the critical section, preventing concurrent access to shared data and maintaining data consistency.
+- The goal of defining critical regions is to ensure that only one thread at a time can execute the critical section, preventing race conditions and maintaining data consistency.
 
 #### Mutual exclusion Pitfalls and Deadlocks
 
