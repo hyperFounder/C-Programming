@@ -1,20 +1,8 @@
 ## LI Operating Systems and Systems Programming
 
+- These are my own personal notes for the [module](https://program-and-modules-handbook.bham.ac.uk/webhandbooks/WebHandbooks-control-servlet?Action=getModuleDetailsList&pgSubj=06&pgCrse=38059&searchTerm=002025) at the University of Birmingham.
 
-## Learning Objectives
 
-
-1. **Demonstrate Understanding of Computer Architecture and Operating Systems:**
-   - Understand the principles of computer architecture.
-   - Explain the functions and components of operating systems.
-
-2. **Program with Pointers and Memory Management:**
-   - Demonstrate proficiency in programming with pointers.
-   - Understand memory management concepts, including dynamic memory allocation.
-
-3. **Write Code that Interacts with the OS Kernel:**
-   - Develop code that interacts with the operating system kernel.
-   - Understand system calls and how to use them in program development.
 
 ## Prerequisites
 
