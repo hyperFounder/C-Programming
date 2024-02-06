@@ -3,7 +3,7 @@
 ![cores.png](..%2F..%2Fimages%2Fcores.png)
 - A CPU is responsible for controlling the cores
 - A core, or CPU core, is the "brain" of a CPU (central processing unit). 
-  - It is an independent processing unit.
+  - It is an independent processing unit (with its own fetch-decode-execute cycle).
   - It receives instructions and performs calculations or operations to satisfy those instructions.
 - A CPU can have multiple cores.
 
