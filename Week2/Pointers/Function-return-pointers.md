@@ -70,18 +70,24 @@ int main(){
 
 ```c
 #include <stdio.h>
+#include <stdlib.h>
 
 int* createLocalVariable() {
     int localVar = 42;
-    int *ptr = &localVar; // Returning a pointer to a local variable
+    int* ptr = &localVar;  // Returning a pointer to a local variable
+
     return ptr;
 }
 
 int main() {
-    int *result = createLocalVariable();
+    int* result = createLocalVariable();
 
-    // Accessing the value through the returned pointer is undefined behavior
-    printf("Value: %d\n", *result);
+    // Accessing the value through the returned pointer
+    printf("Value at the returned pointer: %d\n", *result);
+
+    // The local variable 'localVar' has gone out of scope
+    // Accessing it through the returned pointer leads to undefined behavior
+    printf("Value at the returned pointer (undefined behavior): %d\n", *result);
 
     return 0;
 }
