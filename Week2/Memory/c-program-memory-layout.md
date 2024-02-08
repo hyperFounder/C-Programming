@@ -87,6 +87,7 @@ int main(){
 - To watch: https://www.youtube.com/watch?v=lVMYUxGGHRM&ab_channel=SandeepKumar
 
   - scope: part of the program where a variable can be used (or seen)
+  - Local variables: Their scope is the function. They are allocated in the stack-frame of the function. After the function call, the stack frame is released (and so does every local variable created in a function).
 
 - The stack segment follows the LIFO (Last In First Out) structure.
 - The stack grows in the direction opposite to heap, hence growth is downwards.
