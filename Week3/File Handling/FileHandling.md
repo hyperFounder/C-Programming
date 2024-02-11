@@ -74,7 +74,7 @@ int main()
 ```c
 int main(){
     FILE *fp0, *fp1;
-    fp0 = fopen("infile.text", "r");
+    fp0 = fopen("infile.txt", "r");
     fp1 = fopen("outfile.txt", "w");
     if (fp0 == NULL || fp1 == NULL){
         printf("Cannot open files \n");
