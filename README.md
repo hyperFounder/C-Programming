@@ -1,4 +1,4 @@
-## LI Operating Systems and Systems Programming
+### C and Operating Systems Theory
 
 - These are my own personal notes for the [module](https://program-and-modules-handbook.bham.ac.uk/webhandbooks/WebHandbooks-control-servlet?Action=getModuleDetailsList&pgSubj=06&pgCrse=38059&searchTerm=002025) at the University of Birmingham.
 
