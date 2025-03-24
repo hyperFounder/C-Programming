@@ -90,16 +90,36 @@ Value of var = 3000
 Value available at *ptr = 3000
 Value available at **pptr = 3000
 ```
-- Example
+#### Example double pointer vs normal pointer
+
+- Normal pointer example
 ```c
 int main() {
-    int *p = (int *)malloc(4 * sizeof(int));
-    int *temp = p;
+    int *p = (int *)malloc(4 * sizeof(int)); // p is a pointer to an integer (int *).
+    // i.e: p stores the first memory address of p[i].
+    int *temp = p; // temp actually stores the same memory address as p.
 
     for(int i = 0; i<4; i++){
         printf("value at temp[%d] is %d", i, *temp);
         temp++;
     }
+    return 0;
+}
+```
+- Double pointer example
+```c
+int main() {
+    int arr[3] = {10, 20, 30};  // A simple 1D array with 3 elements
+    int *ptr = arr;  // Pointer to the first element of the array
+
+    // Using a double pointer to access array elements
+    int **dptr = &ptr;  // dptr stores the memory address of ptr
+
+    // Using a for loop to print the elements via the double pointer
+    for (int i = 0; i < 3; i++) {
+        printf("Element %d: %d\n", i + 1, *(*dptr + i));  // Dereference the double pointer and access each element
+    }
+
     return 0;
 }
 ```
