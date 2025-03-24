@@ -1,8 +1,9 @@
 ## The C-Preprocessor
 
+- A preprocessor directive in C and C++ is a command that provides instructions to the compiler to preprocess the source code before compilation. 
 - The C Preprocessor is not a part of the compiler, but is a separate step before the compilation process. 
-
 - The C preprocessor is a macro preprocessor (allows you to define macros) that transforms your program before it is compiled. All preprocessing directives begin with a ```#``` symbol.
+
 
 ### Preprocessing directives
 #### Header Files
