@@ -82,7 +82,7 @@ int main(){
     return 0;
 }
 ```
-### Stack Segment
+### Stack Segment (Memory Region)
 
 - To watch: https://www.youtube.com/watch?v=lVMYUxGGHRM&ab_channel=SandeepKumar
 
@@ -93,6 +93,11 @@ int main(){
 - The stack grows in the direction opposite to heap, hence growth is downwards.
 - A stack pointer points to the top element of the stack.
 - Stack segment stores the value of local variables and values of parameters passed to a function along with some additional information like the instruction's return address, which is to be executed after a function call.
+
+#### Call stack (Runtime Structure)
+
+- The dynamic data structure inside the stack segment (Memory region) that grows and shrinks as functions are called and return.
+- Built out of stack frames for each function call (including main()).
 
 #### Stack Frames and Function calls
 - For each function call, a stack frame is created. After the function call, the stack-frame is released
