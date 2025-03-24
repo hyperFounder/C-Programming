@@ -90,6 +90,29 @@ Value of var = 3000
 Value available at *ptr = 3000
 Value available at **pptr = 3000
 ```
+- Another example
+```cpp
+#include <iostream>
+using namespace std;
+
+int main(){
+
+    int *arr = (int *)malloc(10 * sizeof(int)); // int *arr = new int[10];
+    int count = 0;
+
+    // populate arr
+    for (int i = 0; i<10; i++){
+        *(arr + i) = i;
+    }
+
+    int **pptr = &arr;
+    for (int i = 0; i<10; i++){
+        cout << "val at pptr is " << **pptr << endl;
+        (*pptr)++;
+    }
+    return 0;
+}
+```
 
 ### Arrays
 
