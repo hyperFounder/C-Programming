@@ -1,7 +1,7 @@
 #### Memory Addresses in C
 
 - (&) used to access an address in memory.
-- ```int *p = &c``` means p points to c
+- ```int *p = &c``` means p points to c i.e: p stores the memory address of c.
 #### Data Types
 - Pointer variables take always 8 bytes
 ```c
